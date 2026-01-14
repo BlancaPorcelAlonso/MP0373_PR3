@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llista_grups_musica SYSTEM "exercici02.dtd">
+
+<!-- XML que estructuri informació de diferents grups de música. 
+nom, el gènere, la web oficial, el número d’integrants, el
+nom dels integrants, el número de concerts i el número de fans.
+Com a mínim guarda dos grups i dos integrants a cada grup.
+-->
+
+<llista_grups_musica>
+   <grup_musica num_integrants="3" genere_principal="rock">
+        <nom>Els Catarres</nom>
+        <genere>Pop/Folk</genere>
+        <web>https://elscatarres.cat</web>
+
+
+        <integrants>
+            <integrant ordre="1">
+                <nom_integrant>Èric Vergés</nom_integrant>
+            </integrant>
+            <integrant ordre="2">
+                <nom_integrant>Jan Riera</nom_integrant>
+            </integrant>
+        </integrants>
+
+        <num_concerts>25</num_concerts>
+        <num_fans>
+            30000</num_fans>
+    </grup_musica>
+
+    <grup_musica num_integrants="3" genere_principal="rock">
+        <nom>Txarango</nom>
+        <genere>Fusió</genere>
+        <web>https://txarango.com</web>
+
+        <integrants>
+            <integrant ordre="1">
+                <nom_integrant>Alguer Miquel</nom_integrant>
+            </integrant>
+            <integrant ordre="2">
+                <nom_integrant>Marcel Lázara</nom_integrant>
+            </integrant>
+        </integrants>
+
+        <num_concerts>40</num_concerts>
+        <num_fans>85000</num_fans>
+    </grup_musica>
+</llista_grups_musica>

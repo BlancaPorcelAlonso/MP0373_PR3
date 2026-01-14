@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT llista_contactes (contacte+)>
+<!ELEMENT contacte (nom, edat, cognoms, telefons, direccion+, email)>
+<!ATTLIST contacte esFamiliar CDATA #IMPLIED> <!-- (si, no, ni_idea) -->
+<!ELEMENT nom (#PCDATA)> <!--elemento pcdada y atributo cdata-->
+<!ELEMENT edat (#PCDATA)>
+<!ELEMENT cognoms (cognom*)>
+<!ELEMENT cognom (#PCDATA)>
+<!ATTLIST cognom ordre (1|2) #REQUIRED>

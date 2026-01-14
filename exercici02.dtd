@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT llista_grups_musica (grup_musica+)>
+<!ELEMENT grup_musica (nom, genere+, web?, integrants, num_concerts*, num_fans)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT integrants (integrant*)>
+<!ELEMENT integrant (nom_integrant)>
+<!ELEMENT nom_integrant (#PCDATA)>
+<!ATTLIST integrant ordre (1|2) #REQUIRED>
+<!ELEMENT num_concerts (#PCDATA)>
+<!ELEMENT num_fans (#PCDATA)>
+<!ATTLIST grup_musica
+          num_integrants CDATA #REQUIRED
+          genere_principal (rock|pop|trap|classic) #REQUIRED>

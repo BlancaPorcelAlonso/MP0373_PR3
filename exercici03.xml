@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_lliga SYSTEM "exercici03.dtd">
+<!-- Crear un document XML que contingui informació d’un equip de jugadors d’una lliga. 
+3.2 de cada jugador el nom, cognom, funció principal, funcions secundaries,
+3.3 de cada equip el nom de l’equipo, a què juguen, ubicació, director, preparador, número de
+victòries i derrotes d’aquest any.
+3.4 Afegeix un mínim de dos equips i dos jugadors amb informacions diferents i coherents.-->
+
+<lista_lliga>
+  <equipo>
+    <nombre>Raptors BCN</nombre>
+    <deporte>Baloncesto</deporte>
+    <ubicacion>Barcelona</ubicacion>
+    <preparador>Jordi Serra</preparador>
+
+    <preparador>Laura Pineda</preparador>
+    <preparador>Marc Vidal</preparador>
+
+    <n_victorias>4</n_victorias>
+    <n_derrotas>8</n_derrotas>
+
+    <jugadores>
+      <jugador>
+        <nombre>Alex</nombre>
+        <apellido>Martinez</apellido>
+        <data_naixement>2001-03-12</data_naixement>
+
+        <funcion_principal>
+          <principal>capità</principal>
+        </funcion_principal>
+
+        <funcion_secundaria>
+          <secundaria>base</secundaria>
+        </funcion_secundaria>
+        <funcion_secundaria>
+          <secundaria>defensa</secundaria>
+        </funcion_secundaria>
+      </jugador>
+
+      <jugador>
+        <nombre>Claudia</nombre>
+        <apellido>Sanchez</apellido>
+        <data_naixement>2003-11-28</data_naixement>
+
+        <funcion_principal>
+          <principal>titular</principal>
+        </funcion_principal>
+
+        <funcion_secundaria>
+          <secundaria>aler</secundaria>
+        </funcion_secundaria>
+      </jugador>
+    </jugadores>
+  </equipo>
+
+  <equipo>
+    <nombre>Tigres VLC</nombre>
+    <deporte>Fútbol sala</deporte>
+    <ubicacion>Valencia</ubicacion>
+    <preparador>Eva Torres</preparador>
+
+    <preparador>Ivan Lopez</preparador>
+
+    <n_victorias></n_victorias>
+    <n_derrotas>2</n_derrotas>
+
+    <jugadores>
+      <jugador>
+        <nombre>Hugo</nombre>
+        <apellido>Gomez</apellido>
+        <data_naixement>2002-07-05</data_naixement>
+
+        <funcion_principal>
+          <principal>capità</principal>
+        </funcion_principal>
+
+        <funcion_secundaria>
+          <secundaria>porter</secundaria>
+        </funcion_secundaria>
+      </jugador>
+
+      <jugador>
+        <nombre>Nuria</nombre>
+        <apellido>Ruiz</apellido>
+        <data_naixement>2004-01-19</data_naixement>
+
+        <funcion_principal>
+          <principal>titular</principal>
+        </funcion_principal>
+
+        <funcion_secundaria>
+          <secundaria>ala</secundaria>
+        </funcion_secundaria>
+        <funcion_secundaria>
+          <secundaria>defensa</secundaria>
+        </funcion_secundaria>
+      </jugador>
+    </jugadores>
+  </equipo>
+</lista_lliga>

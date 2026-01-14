@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT lista_lliga (equipo+)>
+<!ELEMENT equipo (nombre, deporte, ubicacion, preparador, preparador*, n_victorias, n_derrotas, jugadores)>
+<!ELEMENT nombre (#PCDATA) >  <!--no puede repetirse, obligatorio -->
+<!ELEMENT deporte (#PCDATA)> <!--no puede repetirse, obligatorio -->
+<!ELEMENT ubicacion (#PCDATA)> <!--no puede repetirse, obligatorio -->
+<!ELEMENT preparador (#PCDATA)> <!--no puede repetirse, obligatorio -->
+<!ELEMENT n_victorias (#PCDATA)>
+<!ELEMENT n_derrotas (#PCDATA)>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombre, apellido, data_naixement, funcion_principal, funcion_secundaria*)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT data_naixement (#PCDATA)>
+<!ELEMENT funcion_principal (principal)>
+<!ELEMENT principal (#PCDATA)>
+<!ELEMENT funcion_secundaria (secundaria)>
+<!ELEMENT secundaria (#PCDATA)>
