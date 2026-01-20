@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<llibreta_contactes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contacto.xsd">
+    <contacte >
+        <nom> Elias</nom>
+        <edat>34</edat>
+        <cognoms>
+            <cognom ordre="1"> Martinez</cognom>
+            <cognom ordre="2"> Sanchez</cognom>
+            <cognom ordre="3"> Gomez</cognom>
+        </cognoms>
+        <telefons>
+            <fix>9362827628</fix>
+            <mobil>665372627</mobil>
+        </telefons>
+        <direccio domicili="principal">
+            <principal />
+            <carrer_principal> c\ Pelai</carrer_principal>
+            <pis>4</pis>
+            <porta>1</porta>
+            <cp>080035</cp>
+            <cituat>Barcelona</cituat>
+            <numero>12</numero>
+        </direccio>
+    </contacte>
+    <contacte>
+        <nom> Elias</nom>
+        <edat>34</edat>
+        <cognoms>
+            <cognom ordre="1"> Martinez</cognom>
+            <cognom ordre="2"> Sanchez</cognom>
+            <cognom ordre="3"> Gomez</cognom>
+        </cognoms>
+        <telefons>
+            <fix>9362827628</fix>
+            <mobil>665372627</mobil>
+        </telefons>
+        <direccio domicili="secundari">
+            <principal />
+            <carrer_principal> c\ Pelai</carrer_principal>
+            <pis>4</pis>
+            <porta>1</porta>
+            <cp>080035</cp>
+            <cituat>Barcelona</cituat>
+            <numero>12</numero>
+        </direccio>
+    </contacte>
+</llibreta_contactes>
